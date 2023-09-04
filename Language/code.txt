@@ -1,0 +1,22 @@
+create a new bucket called num to store whole number
+create a new bucket called i to store whole number
+create a bucket called cnum to store whole number
+create a new bucket called digit to store whole number
+create a new bucket called sum to store whole number
+
+Ask to input a whole number with a message 'Enter number' and store it in num
+assign the value of 0 to i
+assign the value of num to cnum
+assign the value of 0 to sum
+
+run till cnum more_than 0
+  Calculate the value of cnum%10 and store it in digit
+  Calculate the value of sum*10 and store it in sum
+  Calculate the value of digit+sum and store it in sum
+  Calculate the value of cnum/10 and store it in cnum.
+
+if sum equals num
+  print 'It is a palindrome number'.
+else
+  print 'It is not a palindrome number'
+	
